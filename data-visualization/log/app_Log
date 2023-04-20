@@ -1,0 +1,120 @@
+2023-04-19 20:31:10,992 [INFO] wasyncore.py 486 Serving on http://0.0.0.0:5001
+2023-04-19 20:31:22,080 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:31:22,081 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:31:22,126 [INFO] authentication.py 70 package: mysql.connector.plugins
+2023-04-19 20:31:22,126 [INFO] authentication.py 71 plugin_name: mysql_native_password
+2023-04-19 20:31:22,128 [INFO] authentication.py 75 AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2023-04-19 20:31:22,146 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:31:22,184 [INFO] MySQL_DB.py 64 get selected date car conditions function
+2023-04-19 20:31:22,560 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:31:22,560 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:31:22,642 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:31:22,678 [ERROR] app.py 1745 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\api.py", line 41, in visualize_selected_date
+    df1 = db_obj.get_selected_date_car_models(TABLE,date)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\MySQL_DB.py", line 49, in get_selected_date_car_models
+    cursor.execute(query)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\cursor.py", line 617, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1525 (HY000): Incorrect DATE value: 'favicon.ico'
+2023-04-19 20:31:42,853 [INFO] api.py 20 visualize all dates endpoint
+2023-04-19 20:31:42,853 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:31:42,908 [INFO] MySQL_DB.py 54 get all dates car models function
+2023-04-19 20:31:42,958 [INFO] MySQL_DB.py 75 get all dates car conditions function
+2023-04-19 20:31:43,244 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:31:43,245 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:31:43,305 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:31:43,323 [ERROR] app.py 1745 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\api.py", line 41, in visualize_selected_date
+    df1 = db_obj.get_selected_date_car_models(TABLE,date)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\MySQL_DB.py", line 49, in get_selected_date_car_models
+    cursor.execute(query)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\cursor.py", line 617, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1525 (HY000): Incorrect DATE value: 'favicon.ico'
+2023-04-19 20:32:28,211 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:32:28,212 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:32:28,270 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:32:28,305 [INFO] MySQL_DB.py 64 get selected date car conditions function
+2023-04-19 20:32:28,524 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:32:28,525 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:32:28,592 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:32:28,612 [ERROR] app.py 1745 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\api.py", line 41, in visualize_selected_date
+    df1 = db_obj.get_selected_date_car_models(TABLE,date)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\MySQL_DB.py", line 49, in get_selected_date_car_models
+    cursor.execute(query)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\cursor.py", line 617, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1525 (HY000): Incorrect DATE value: 'favicon.ico'
+2023-04-19 20:33:28,890 [INFO] wasyncore.py 486 Serving on http://0.0.0.0:5001
+2023-04-19 20:33:35,242 [INFO] api.py 20 visualize all dates endpoint
+2023-04-19 20:33:35,242 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:33:35,282 [INFO] authentication.py 70 package: mysql.connector.plugins
+2023-04-19 20:33:35,284 [INFO] authentication.py 71 plugin_name: mysql_native_password
+2023-04-19 20:33:35,285 [INFO] authentication.py 75 AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2023-04-19 20:33:35,303 [INFO] MySQL_DB.py 54 get all dates car models function
+2023-04-19 20:33:35,360 [INFO] MySQL_DB.py 75 get all dates car conditions function
+2023-04-19 20:33:35,683 [INFO] api.py 35 visulize selected date endpoint
+2023-04-19 20:33:35,683 [INFO] MySQL_DB.py 6 mysql db connection
+2023-04-19 20:33:35,763 [INFO] MySQL_DB.py 43 get selected date car models function
+2023-04-19 20:33:35,784 [ERROR] app.py 1745 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\api.py", line 41, in visualize_selected_date
+    df1 = db_obj.get_selected_date_car_models(TABLE,date)
+  File "D:\OneDrive - Georgian College\BDAT 1004 Data Programming\assignments\Final Group Project\data-visualization\MySQL_DB.py", line 49, in get_selected_date_car_models
+    cursor.execute(query)
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\cursor.py", line 617, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\hpanu\AppData\Local\Programs\Python\Python37\lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1525 (HY000): Incorrect DATE value: 'favicon.ico'

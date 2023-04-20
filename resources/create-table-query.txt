@@ -1,0 +1,13 @@
+CREATE TABLE cars (
+    	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	date DATE,
+	year YEAR,
+	make varchar(30),
+	model varchar(50),
+	mileage int(6),
+	car_condition varchar(30),
+	dealer varchar(255),
+	dealer_rating DOUBLE(2,1),
+	dealer_rating_count int,
+	price int
+);
