@@ -81,7 +81,6 @@ class MySQL_DB:
         return records
         
 
-# db_obj = MySQL_DB('34.130.29.75','root','crs.123','bdat1004')
 # print(db_obj.get_databases())
 # db_obj.add_record('cars','2023-04-07','2017','Kia','Picanto',35000,'used','KIA Lanka',4.8,1000,20000)
 # print(db_obj.get_last_day_car_models())
